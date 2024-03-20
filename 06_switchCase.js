@@ -45,3 +45,4 @@ if (day == 5) {
     console.log(`Saturday`);
   }
 }
+
