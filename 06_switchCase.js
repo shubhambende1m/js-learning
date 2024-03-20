@@ -21,8 +21,8 @@ switch (day) {
   case 6:
     console.log(`Saturday`);
     break;
-    default:
-        console.log(`Invalid day`);
+  default:
+    console.log(`Invalid day`);
 }
 if (day == 0) {
   console.log(`Sunday`);
@@ -45,4 +45,3 @@ if (day == 5) {
     console.log(`Saturday`);
   }
 }
-
