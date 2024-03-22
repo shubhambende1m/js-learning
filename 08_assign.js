@@ -9,14 +9,13 @@ for (let index = 0; index < word.length; index++) {
 
 
     if(vowels.includes(lowerCase)){
-        vowelsCount = vowelsCount++;
-
-        console.log(vowelsCount);
+        vowelsCount++;
     }
 
 
 
 }
+console.log(vowelsCount);
 
 let sum=0;
 for (let index = 0; index < 5; index++) {

@@ -6,7 +6,7 @@ console.log(` Total Element`);
 console.log(`${arrayNumbers.length}`);
 
 
-console.log(` Accessing Array Elements`);
+console.log(`Accessing Array Elements`);
     const element0 = arrayNumbers[0];
     console.log(`0th Element is ${element0}`);
     console.log(`3th Element is ${arrayNumbers[3]}`);
@@ -50,6 +50,7 @@ for (let index = arrayNums.length-1; index >=0; index--) {
     const element = arrayNums[index];
     word = word +' '+ element
     console.log(element);
+
 
 
 }
