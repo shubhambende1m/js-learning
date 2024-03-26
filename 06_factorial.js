@@ -10,3 +10,11 @@ function factorial(num){
 factorial(1);
 factorial(5);
 factorial(7);
+console.log(`=========== NEW ASSIGNMENT ================`);
+factorial(5);
+factorial(3);
+factorial(null);
+factorial(8);
+factorial(undefined);
+factorial(9);
+factorial(0);
