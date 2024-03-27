@@ -32,7 +32,7 @@ console.log(professor);
 console.log(`==========Add New Element At 2 index Array ==================`);
 
 var new1 = professor.certificates.splice(1,0,"Oracle Certificate");
-console.log(new1);
+console.log(professor.certificates);
 
 
 
