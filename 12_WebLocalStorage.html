@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Session Storage Assignment</h2>
+    <script>
+        window.sessionStorage.setItem('name', 'Shubham Sopan Bende');
+        window.sessionStorage.setItem('age', '24');
+        window.sessionStorage.setItem('city', 'Manchar');
+        window.sessionStorage.setItem('pinCode', '410503');
+        window.sessionStorage.setItem('district', 'Pune');
+
+        const result = window.sessionStorage.removeItem('city');
+        console.log(result);
+    </script>
+</body>
+</html>
