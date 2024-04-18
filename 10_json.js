@@ -1,5 +1,5 @@
-//JSON.parse
-//JSON.stringfy convert object json
+//JSON.parse      json ko object main convert
+//JSON.stringfy  object ko  json main covert
 
 let person ={
     name: 'John',
